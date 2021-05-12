@@ -15,11 +15,12 @@ body {
 }
 
 h1 {
-  margin: 30px;
+  margin: 10%;
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 8rem;
   color: #4ECCA3;
+  text-align: center;
 }
 
 p {
@@ -37,5 +38,20 @@ footer {
   color: #EEEEEE;
   text-align: center;
   font-family: 'Indie Flower', cursive;
+
+}
+
+
+@media (max-width: 500px) {
+  .container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.dice {
+  text-align: center;
+  display: inline-block;
+  width: 40%;
+
 
 }

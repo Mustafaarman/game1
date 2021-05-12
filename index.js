@@ -10,7 +10,7 @@ function whoWins() {
 	}
 
 	else if ( playerOne > palyerTwo ) {
-	    document.querySelector("h1").innerHTML = pOneName + "Wins!";	
+	    document.querySelector("h1").innerHTML = pOneName + " Wins!";	
 	}
 
 	else {
