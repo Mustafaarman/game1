@@ -18,6 +18,11 @@ function whoWins() {
 	}
 }
 
+document.querySelector("#one").innerHTML = pOneName;
+document.querySelector("#two").innerHTML = pTwoName;
+
+
+
 function showDice1(result) {
 	if ( result === 1 ) {
 		document.querySelector(".img1").setAttribute("src", "images/dice1.png");
